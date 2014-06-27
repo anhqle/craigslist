@@ -105,6 +105,7 @@ def main():
     retrieve_and_enter_data(db_cursor, update_time, rss_links)
 
 
+    # Uncomment this line to clean existing entries from the database
     # clean_expired_entries(db_cursor, update_time)
 
     
