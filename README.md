@@ -1,13 +1,12 @@
 ### How to use
 
-1. Run `sqlite3 var/db/craigslist.db < craigslist.sql` to initialize a SQLite3 database
-2. Run `python craigslist.py` to populate the database with Craig's List RSS feed item.
+1. Run `sqlite3 search_result.db < craigslist.sql` to initialize a SQLite3 database
+2. Run `python craigslist.py` to populate the database with Craig's List RSS feed item. The code also copy `search_result.db` into `search_result.csv`
     * Modify parameters in `main()` in `craigslist.py` to fine tune your search
-    * Options include search terms, locations, type of listings, min/max price, etc.
-3. The database should be populated. Run `sqlitebrowser var/db/craigslist.db` to view (you need to install `sqlitebrowser` first)
+    * Options include multiple search terms, locations, type of listings, min/max price, etc.
 
 ### To do
-1. Write to .csv instead of sqlite3 database
+1. Write to .csv instead of sqlite3 database (DONE)
 
 ### Credits
 
