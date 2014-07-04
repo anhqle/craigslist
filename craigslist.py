@@ -86,7 +86,7 @@ def main():
     sublocations = ["doc", "nva", "mld"]
     search_terms = []
     listings = ["cta"] # cta is the listing for cars and trucks
-    price = [3000, 5000] # min and max price
+    price = [3000, 7500] # min and max price
     year = [2004, 2010] # min and max year
     makes = ["honda", "toyota", "hyundai"]
     title_status = 1 # Clean title

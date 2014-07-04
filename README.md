@@ -1,3 +1,7 @@
+### Dependency
+* Python packages `feedparser`, `lxml`
+* `sqlite3`
+
 ### How to use
 
 1. Run `sqlite3 search_result.db < craigslist.sql` to initialize a SQLite3 database
